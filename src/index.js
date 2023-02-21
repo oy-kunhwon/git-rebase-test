@@ -1,4 +1,4 @@
-const { sub } = require('./lib/a');
+import { sub } from './lib/a.js';
 
 const foo = 3;
 const bar = 2;
