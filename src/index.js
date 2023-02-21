@@ -1,8 +1,14 @@
 import { sub } from './lib/a.js';
+import { sum } from './lib/b.js';
 
-const foo = 3;
-const bar = 2;
+const subFoo = 3;
+const subBar = 2;
+
+const sumFoo = 2;
+const sumBar = 3;
 
 console.log('Hello world');
 console.log('Hello feature A');
-console.log(sub(foo, bar));
+console.log(sub(subFoo, subBar));
+console.log('Wow! feature B');
+console.log(sum(sumFoo, sumBar));
