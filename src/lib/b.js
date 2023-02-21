@@ -6,4 +6,16 @@ function sum(a, b) {
   return a + b;
 }
 
-export { sum };
+/**
+ * @param {number} a
+ * @param {number} b
+ * @param {number} c
+ */
+function sumWithThreeParam(a, b, c) {
+  return a + b + c;
+}
+
+export {
+  sum,
+  sumWithThreeParam,
+};
