@@ -1,0 +1,9 @@
+{
+  "name": "git-rebase-test",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "repository": "git@github.com:oy-kunhwon/git-rebase-test.git",
+  "author": "안건환_커머스서비스개발팀 <kh.ahn2@oliveyoung.co.kr>",
+  "license": "MIT"
+}
